@@ -1,0 +1,7 @@
+site_name: Private Deploy
+site_url: https://github.com/yeqianmen/ye-mkdocs.github.io
+site_author: yeqianmen
+theme:
+  name: material #主题
+repo_name: yeqianmen/kubectl-mounts
+repo_url: https://github.com/yeqianmen/kubectl-mounts
