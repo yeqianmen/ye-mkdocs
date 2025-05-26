@@ -1,7 +1,32 @@
-site_name: Private Deploy
-site_url: https://github.com/yeqianmen/ye-mkdocs.github.io
-site_author: yeqianmen
-theme:
-  name: material #主题
-repo_name: yeqianmen/kubectl-mounts
+site_name: kubectl
+site_url: https://yeqianmen.github.io/kubectl-mounts/
 repo_url: https://github.com/yeqianmen/kubectl-mounts
+repo_name: yeqianmen/kubectl-mounts
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.top
+    #- navigation.tabs
+    - content.code.copy
+    #- navigation.tabs.sticky
+  palette:
+    scheme: default
+  font:
+    text: Roboto
+    code: Roboto Mono
+  language: en
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yeqianmen/kubectl-mounts
+      name: GitHub
+
+  homepage: https://github.com/yeqianmen/kubectl-mounts
+
+nav:
+  - Home: index.md
+  - Usage: usage.md
